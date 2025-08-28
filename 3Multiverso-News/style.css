@@ -1,0 +1,134 @@
+* {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body {
+    color: #ffffff;
+    background-image: url();
+    background-size: 200px;
+    background-repeat: repeat;
+    opacity: 1; /* valor entre 0 e 1 */
+}
+
+header {
+    background: #22c39b;
+    background: linear-gradient(0deg, rgba(34, 195, 155, 1) 0%, rgba(253, 187, 45, 1) 100%);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.search {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    color: #060606;
+}
+.search input {
+    border: none;
+    outline: none;
+    margin-left: 5px;
+    font-size: 14px;
+    color: #060606;
+}
+.search svg {
+    stroke: #060606;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+    gap: 20px;
+}
+nav a {
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+main { 
+    color: #060606;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 15px;
+}
+
+article {
+    background: #e0e0e0;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 16px;
+    box-shadow:
+        8px 8px 24px #bebebe,
+        -8px -8px 24px #ffffff;
+    transition: box-shadow 0.3s;
+}
+.raised {
+box-shadow:
+-14px -14px 28px var(--shadow-light),
+14px 14px 28px var(--shadow-dark);
+}
+
+article h2 {
+    margin-top: 0;
+    color:#22c39b;
+    background-image: url("caranguejo.png");
+    background-repeat: no-repeat;   /* evita repetir a imagem */
+    background-size: cover;         /* cobre toda a área do h2 */
+    background-position: center;    /* centraliza a imagem */
+}
+
+footer {
+    background-color: #322f2f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.capivara {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.pato {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.caranguejo {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.macaco {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 60%; height: auto;
+}
+.tartaruga {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    width: 80%; height: 70%;
+}
