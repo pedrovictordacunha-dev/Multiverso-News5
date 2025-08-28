@@ -58,9 +58,19 @@ nav a {
 }
 main { 
     color: #060606;
-    max-width: 800px;
+    max-width: 80vw;
     margin: 20px auto;
     padding: 0 15px;
+    display: flex;
+}
+
+main section {
+    max-width: 60vw;
+} 
+
+main sidebar {
+    max-width: 20vw;
+    background: red;
 }
 
 article {
@@ -132,3 +142,4 @@ footer {
     border-radius: 8px;
     width: 80%; height: 70%;
 }
+                                                                                                                                 
